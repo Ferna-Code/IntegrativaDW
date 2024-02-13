@@ -1,0 +1,180 @@
+
+.titulo-recep{
+    text-transform: uppercase;
+}
+.contenedor-principal{
+    padding-top: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.formulario{
+    background-color: azure;
+    margin-bottom: 40px;
+    padding: 20px;
+    margin-top: 50px;
+    border-style: groove;
+    border-radius: 4px;
+    
+}
+.contenedor-divi{
+    display: flex;
+    flex-direction: row;
+    padding: 15px 15px 0 15px;
+    margin-bottom: 0;
+}
+
+.izquierda{
+    margin-right: 20px;
+    margin-bottom: 0;
+}
+.derecha{
+    margin-left: 20px;
+    margin-bottom: 0;
+}
+
+.campo-horizontal{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 40px;
+    justify-content: space-between;
+}
+.campo{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 25px;
+}
+.campo-domicilio{
+    display: flex;
+    flex-direction: column;
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+.dato-adi{
+    padding: 0 15px;
+}
+.contenedor-boton{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;align-items: center;
+}
+
+.check-especial{
+    margin-top: 0%;
+}
+.label-form{
+    font-size: medium;
+}
+.input-form{
+    margin-top: 10px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    font-size: medium;
+    background-color: azure;
+}
+.select-form{
+    margin-top: 5px;
+    background-color: var(--color-tres);
+    color: var(--color-negro);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+.boton-enviar{
+    background-color: var(--color-uno);
+    color: var(--color-blanco);
+    padding: 5px 7px;
+    border-style: none;
+    font-size: medium;
+    border-radius: 3px;
+}
+.boton-enviar:hover{
+    background-color: var(--color-negro);
+    
+}
+/*Fin de formulario de registro*/
+/*COMIENZA NAV*/
+.nav-ok {
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+.enlace-nav {
+    background-color: var(--color-uno);
+    padding: 10px 10px;
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    border-style: none;
+    border-radius: 5px;
+}
+.enlace-nav:focus{ /*solucion al error del docus color azul que tenia*/
+    color:var(--color-blanco);
+    text-decoration: none;
+}
+
+.enlace-nav:hover {
+    text-decoration: none;
+    background-color: var(--color-negro);
+    color: var(--color-blanco);
+}
+/*FIN NAV*/
+/*COMIENZA SERVICIOS*/
+.contenedor-principal-servicios{
+    padding-top: 5px;
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+}
+.contenedor-divi-servicios{
+    display: flex;
+    flex-direction: row;
+    padding: 15px 15px 0 15px;
+    margin-bottom: 0;
+    width: 70%;
+    
+}
+.p-servicio{
+    text-align:justify;
+    padding: 5px 15px;
+}
+.conten-servicio{
+    max-width:300px;
+}
+.img-servicio{
+    width: 100%;
+}
+.p-intro{
+    display: flex;
+    text-align: center;
+    padding: 5px 15px;
+    width: 70%;
+}
+.pregunta{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #bee1ed;
+    padding: 5px 15px;
+    width: 65%;
+}
+.a-pregunta{
+    background-color: #004173;
+    color: var(--color-blanco);
+    text-decoration: none;
+    border-style: none;
+    padding: 15px 15px;
+    font-size:medium;
+    text-transform: uppercase;
+    
+}
+.a-pregunta:hover{
+    background-color: var(--color-dos);
+    color: var(--color-blanco);
+}
+
+
